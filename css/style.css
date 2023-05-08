@@ -1,0 +1,155 @@
+.navbar {
+    font-size: 1.3rem;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.header-barra {
+    background-color: #00420c;
+    color: #fff;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.barra li {
+    color: #fff;
+}
+
+.barra li a {
+    display: block;
+    color: #fff;
+}
+
+.barra li a:hover {
+    color: #fff;
+}
+
+.titulo-noticias,
+.titulo-campi,
+.titulo-cursos {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+    padding: 0 1%;
+    margin: 7% 0;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #00510F;
+    color: #fff;
+}
+
+.footer-row {
+    background-color: #00420c;
+    height: 200px;
+}
+
+.footer-col1 p {
+    padding-left: 40px;
+}
+
+.lista-campi ul li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.lista-campi ul {
+    margin-bottom: 40px;
+}
+
+.campus {
+    font-weight: bold;
+    color: #3E7ECB;
+}
+
+.confira {
+    font-size: 1.1rem;
+    padding: 10px 0;
+}
+
+.cursos-bacharelado {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.bacharelado ul {
+    padding: 0;
+}
+
+.bacharelado ul li {
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+.cursos-licenciatura {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.licenciatura ul {
+    padding: 0;
+}
+
+.licenciatura ul li {
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+.cursos-tecnologia {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.tecnologia ul {
+    padding: 0;
+}
+
+.tecnologia ul li {
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+.cursos-pedagogica {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.pedagogica ul {
+    padding: 0;
+}
+
+.pedagogica ul li {
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        margin: 1% 0;
+    }
+
+    .carousel-inner {
+        margin-top: 2%;
+    }
+}

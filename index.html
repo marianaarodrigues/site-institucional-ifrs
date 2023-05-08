@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importando arquivos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Importando arquivos JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Instituto Federal do Rio Grande do Sul - IFRS</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="#">
+                    <h1><img src="img/ifrs.png" class="logo"></h1>
+                </a>
+                <ul class="navbar-nav fw-medium">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/campus.html">Campus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/vestibulares.html">Vestibulares</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-barra">
+            <div class="container-xxl">
+                <ul class="nav justify-content-end barra">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#noticias">Notícias</a>
+                    </li>
+                    |
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-xxl">
+        <section>
+            <div class="row align-items-center titulo-noticias fw-bold mt-3" id="noticias">
+                <div class="col-md-12 text-center">
+                    <h2>Notícias</h2>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-5 text-center">
+                    <p>(Para preencher o espaço)</p>
+                    <a href="https://ingresso.ifrs.edu.br/2023-2" class="">
+                        <img src="img/banner-ps-2023-2.png" width="860" height="250" class="banner">
+                    </a>
+                    <a href="https://ifrs.edu.br/ensino/ead/" class="">
+                        <img src="img/banner-ead.png" width="860" height="250" class="banner">
+                    </a>
+                    <a href="https://ifrs.edu.br/cursos/" class="">
+                        <img src="img/banner-cursos-1.png" width="860" height="250" class="banner">
+                    </a>
+                </div>
+                <div class="col-md-7 mt-sm-3">
+                    <div id="carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/carrossel1.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/carrossel2.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/carrossel3.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/carrossel4.png" class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row mt-3">
+                <div class="col-md-3 col-sm-6 mb-3 mb-sm-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://ifrs.edu.br/fala-ai-reitor-abril-foi-de-agenda-intensa/">
+                                    [Fala aí, Reitor] Abril foi de agenda intensa</a>
+                            </h5>
+                            <p class="card-text">
+                                Confira as principais atividades que estiveram na agenda de abril do reitor do IFRS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3 mb-sm-2">
+                    <div class="card" id="noticiaResumo">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://ifrs.edu.br/abraco-pela-paz-e-realizado-nos-campi-canoas-e-viamao/">
+                                    Abraço pela Paz é realizado nos campi Canoas e Viamão</a>
+                            </h5>
+                            <p class="card-text">
+                                O “Abraço pela Paz” foi proposto pelo Conif para celebar o Dia Mundial da Educação,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3 mb-sm-2">
+                    <div class="card" id="noticiaResumo">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a
+                                    href="https://ifrs.edu.br/aberto-periodo-de-ingresso-por-transferencia-ou-de-diplomados-em-alvorada-bento-goncalves-e-caxias-do-sul/">
+                                    Aberto período de ingresso por transferência ou de diplomados em três campi</a>
+                            </h5>
+                            <p class="card-text">
+                                Fique atento aos prazos das inscrições e aos requisitos, que podem ser encontrados nos
+                                editais
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3 mb-sm-2">
+                    <div class="card" id="noticiaResumo">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a
+                                    href="https://ifrs.edu.br/abertas-as-inscricoes-para-avaliacao-presencial-de-lingua-portuguesa-para-imigrantes/">
+                                    Abertas as inscrições para avaliação presencial de Língua Portuguesa para
+                                    imigrantes</a>
+                            </h5>
+                            <p class="card-text">
+                                São ofertadas 70 vagas e as provas serão aplicadas nos campi Porto Alegre e Viamão.
+                                Inscrições até 08 de maio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-xxl" id="contato">
+            <div class="row align-items-center footer-row">
+                <div class="col-6 text-start footer-col1">
+                    <p><strong>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul</strong></p>
+                    <p>Rua General Osório, 348 – Bairro Centro – Bento Gonçalves/RS, CEP: 95700-086</p>
+                </div>
+                <div class="col-6 text-center">
+                    <p>Telefone: (54) 3449-3300</p>
+                    <p>E-mail: gabinete@ifrs.edu.br</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
