@@ -34,7 +34,8 @@
 
 .titulo-noticias,
 .titulo-campi,
-.titulo-cursos {
+.titulo-cursos,
+.titulo-editais {
     text-align: center;
     margin: 20px 0;
 }
@@ -142,6 +143,25 @@ footer {
 .pedagogica ul li {
     list-style-type: none;
     padding: 7px 0;
+}
+
+.ano-edital {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.lista-editais ul {
+    padding: 0;
+}
+
+.lista-editais ul li {
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+.lista-editais ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
