@@ -91,12 +91,12 @@ footer {
 
 .cursos-bacharelado {
     margin: 15px 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
-.bacharelado ul {
+/* .bacharelado ul {
     padding: 0;
-}
+} */
 
 .bacharelado ul li {
     list-style-type: none;
@@ -105,12 +105,12 @@ footer {
 
 .cursos-licenciatura {
     margin: 15px 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
-.licenciatura ul {
+/* .licenciatura ul {
     padding: 0;
-}
+} */
 
 .licenciatura ul li {
     list-style-type: none;
@@ -119,12 +119,12 @@ footer {
 
 .cursos-tecnologia {
     margin: 15px 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
-.tecnologia ul {
+/* .tecnologia ul {
     padding: 0;
-}
+} */
 
 .tecnologia ul li {
     list-style-type: none;
@@ -133,12 +133,12 @@ footer {
 
 .cursos-pedagogica {
     margin: 15px 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
-.pedagogica ul {
+/* .pedagogica ul {
     padding: 0;
-}
+} */
 
 .pedagogica ul li {
     list-style-type: none;
@@ -147,15 +147,14 @@ footer {
 
 .ano-edital {
     margin: 15px 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
-.lista-editais ul {
+/* .lista-editais ul {
     padding: 0;
-}
+} */
 
 .lista-editais ul li {
-    list-style-type: none;
     padding: 7px 0;
 }
 
